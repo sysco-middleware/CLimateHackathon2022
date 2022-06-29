@@ -65,7 +65,7 @@ In the category "no TEK" there are some goods qualified as energy effective, the
 - removing of 'from_year','to_year','number_of_bedrooms','ad_type','owner_type_description','local_area_name'
 
 #### features selection 
-List of the features selected for the next step: modelling
+List of the features selected for the next step: **modelling**
 
 
 **Features         Correlation**
