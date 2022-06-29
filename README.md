@@ -48,7 +48,7 @@ The correlation with the energy label is even higher when considering specific t
 - {1:A,2:B,3:C,4:D,5:E,6:F,7:G}
 
 
-The distribution of the ads by TEk category and energy label is somehow similar to the [energy report] (https://www.energimerking.no/no/energimerking-bygg/energimerkestatistikk/#mainContent) provided by ENOVA page 9. 
+The distribution of the ads by TEk category and energy label is somehow similar to the [energy report](https://www.energimerking.no/no/energimerking-bygg/energimerkestatistikk/#mainContent) provided by ENOVA page 9. 
 
 
 *But* 
