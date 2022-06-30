@@ -10,12 +10,12 @@ def ConcatenateFiles():
 
     data=[]
 
-    for f in glob.glob("./WithCoordinates_Finnyeardata_WholeNorway/*.json"):
+    for f in glob.glob("Data/WithCoordinates_Finnyeardata_WholeNorway/*.json"):
         with open(f) as infile:
             data.extend(json.load(infile))
             print(f)
 
-    with open("merged_files.json",'w') as outfile:
+    with open("Data/merged_files.json",'w') as outfile:
         json.dump(data, outfile)
 
     print(len(data))
@@ -30,14 +30,14 @@ def SelectPropertyType():
     '''
     
     
-    df = pd.read_json('./merged_files.json')
+    df = pd.read_json('Data/merged_files.json')
     for element in ['Gårdsbruk/Småbruk', 'Bygård/Flermannsbolig', 'Andre',
                     'Produksjon/Industri', 'Annet fritid', 'Garasje/Parkering']:
         df.drop(df[df['property_type_description'] == element].index, inplace=True)
 
 
 
-    df.to_parquet('output_data_process.parquet')
+    df.to_parquet('Data/output_data_process.parquet')
 
 
 
