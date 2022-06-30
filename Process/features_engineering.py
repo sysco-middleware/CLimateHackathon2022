@@ -75,12 +75,12 @@ def FeaturesEngineering():
     df['lat,lon'] = df['lat'].astype(str)+','+ df['lon'].astype(str)
     
     #RUN ONLY if needed, takes 20min ( 8 ads per seconds)
-    df['elevation'] = df['lat,lon'].apply(lambda x: GetElevation(x))
+    #df['elevation'] = df['lat,lon'].apply(lambda x: GetElevation(x))
 
 
     #select the features and save output
-    output_df = df[['ad_id','lat', 'lon', 'byggear_cat', 'ownership_cat', 'property_type_cat','energy_label','elevation']]
-    output_df.to_parquet('Process/output_engineering.parquet')
+    
+    df.to_parquet('Process/output_engineering.parquet')
     print('hello world, you are done')
 
 
