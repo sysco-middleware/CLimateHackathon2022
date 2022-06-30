@@ -27,6 +27,7 @@ Removing of 'Gårdsbruk/Småbruk', 'Bygård/Flermannsbolig', 'Andre','Produksjon
 ![Energy label population](/illustrations/nr_ads_by_energetic_labels.png) 
 
 
+
 #### Building year 
 
 The baseline correlation between the energy label and the building year is ≈73%. BVy categorizing the ads according to the TEK laws it increases to ≈82% and it is even higher when considering specific type of ads after the TEK categorization (coef fig).
@@ -60,9 +61,6 @@ In the category "no TEK" there are some goods qualified as energy effective, the
 
 ### Feature Selection
 
-#### removing features
-
-- removing of 'from_year','to_year','number_of_bedrooms','ad_type','owner_type_description','local_area_name'
 
 #### features selection 
 List of the features selected for the next step: **modelling**
@@ -70,15 +68,17 @@ List of the features selected for the next step: **modelling**
 
 **Features         Correlation**
 
-energy_label     1.000000
-lat              0.052593
-lon              0.065122
-size_from        0.099158
-byggear_cat     -0.824377
-ownership_cat    0.067418
-elevation        0.026815
+lat                  0.052593
+lon                  0.065122
+size_from            0.099158
+byggear_cat         -0.824377
+ownership_cat        0.067418
+property_type_cat    0.105778
+energy_label         1.000000
 
 
 *extra:*
 ad_id            0.036030   <- to keep track of it.
+
+
 
