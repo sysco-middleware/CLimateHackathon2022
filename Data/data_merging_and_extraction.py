@@ -26,9 +26,7 @@ def ConcatenateFiles():
 def SelectPropertyType():
     '''
     -1- Keeps only the property types: Leilighet, Enebolig, Rekkehus, Tomannsbolig as
-    they are the ones highly populated and with a very high correlation with the energy labels ( 80/90 %)
-    -2- Remove features that will not served during the 
-    
+    they are the ones highly populated and with a very high correlation with the energy labels ( 80/90 %)    
     '''
     
     
