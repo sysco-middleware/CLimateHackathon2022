@@ -82,3 +82,18 @@ ad_id            0.036030   <- to keep track of it.
 
 
 
+## Waht we tried
+- reduce the number of categories:
+instead of 7 energy labels we used 4 new_energy labels: {A,B,C}:1 , {D,E}:2, {F:3}, {G:4}: the accurage juste using the year improve from acc=0.52 to 0.65
+- weather data: 
+the add of weather data with through Graddastall did not help the model 
+- derive some features from type of building: 
+adding the number of outer walls according to the type of building improve slightly the models
+- PCA
+PCA alone is not enough to improve significantly the accuracy of the model.
+- extract the heating type from the energy label: by adding the heating type to the energy label we can improve the accuracy of the model.
+with 7 output + PCA we reach an accuracy of ≈0.6.
+
+
+## Strategy for the ingestion of the data
+[](http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png)
