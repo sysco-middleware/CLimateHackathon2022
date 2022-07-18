@@ -96,5 +96,6 @@ with 7 output + PCA we reach an accuracy of ≈0.6.
 
 
 ## Strategy for the ingestion of the data
-![](https://drive.google.com/file/d/1jBYpZPLdPVdpheoKezJZehb7Erpx6ybF/view?usp=sharing)
+![](https://drive.google.com/file/d/1LLtENZkpp40aaTOAULTDKIxqv4j1a5fY/view?usp=sharing)
 
+energy label:

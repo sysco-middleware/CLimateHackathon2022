@@ -2,7 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 Google_api_key.txt
-
+mongoDB_password.txt
+*.pdf
 
 
 
