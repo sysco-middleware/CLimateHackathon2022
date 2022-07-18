@@ -96,4 +96,4 @@ with 7 output + PCA we reach an accuracy of ≈0.6.
 
 
 ## Strategy for the ingestion of the data
-[](http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png)
+[test](http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png)
