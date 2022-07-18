@@ -96,4 +96,4 @@ with 7 output + PCA we reach an accuracy of ≈0.6.
 
 
 ## Strategy for the ingestion of the data
-![image](/illustrations/Ingestion workflow.png)
+![image](/illustrations/Ingestion_workflow.png)
