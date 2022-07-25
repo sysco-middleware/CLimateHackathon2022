@@ -4,7 +4,7 @@
 Google_api_key.txt
 mongoDB_password.txt
 *.pdf
-
+*.json
 
 
 ### Python ###
